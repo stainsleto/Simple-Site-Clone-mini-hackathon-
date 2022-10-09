@@ -1,0 +1,156 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+.hero-section{
+  background-image: url("images/blog.jpg");
+  width:100%;
+  height:100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.hero-content{
+  text-align: center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  padding-top:150px;
+}
+
+
+.nav-container{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top:0px;
+  width:100%;
+  height:72px;
+  padding: 50px;
+}
+
+.nav-container > span{
+  margin-left:10px;
+} 
+
+.nav-item-2{
+  margin: 0px 10px 0px 10px;
+  
+}
+
+
+
+.hero-text{
+  font-family: 'Roboto', sans-serif;
+  color:white;
+  font-weight:100;
+  font-size:55px;
+  
+  
+}
+
+.hero-bold-text{
+  font-family: 'Roboto', sans-serif;
+  color:white;
+  font-weight:400;
+  font-size:55px;
+}
+
+.hero-sub-text{
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight:400;
+  font-style: italic;
+  color:white;
+  text-align: center;
+}
+
+.start-button{
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  width:200px;
+  border: 2px white solid;
+  border-radius:100px;
+  padding:10px;
+  background-color: #bb1600 ;
+  text-decoration:none;
+}
+
+.themes-section{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: #fefeff;
+  margin:80px 0px 0px 0px;
+}
+
+.theme-content{
+  text-align: center;
+}
+
+#section-title{
+  font-family: 'Roboto', sans-serif;
+  font-size:34px;
+  font-weight:900;
+  color:#444;
+}
+
+#section-desc{
+  font-family: 'Roboto', sans-serif;
+  color:#646262;
+  margin:70px 150px 70px 150px;
+  
+}
+
+#theme-slider{
+  margin-bottom:50px;
+}
+
+.why-section{
+  background-color:#f7f7f8;
+  width:100vw;
+}
+
+.why-divide{
+  display:flex;
+  flex-direction:row;
+  padding:70px 50px 50px 50px;
+  
+}
+
+#section-desc-why{
+  font-family: 'Roboto', sans-serif;
+  color:#646262;
+  margin:70px 100px 70px 100px;
+  text-align:left;
+  
+}
+
+#section-title-why{
+  font-family: 'Roboto', sans-serif;
+  font-size:34px;
+  font-weight:900;
+  padding-top:100px;
+  color:#444;
+}
+
+.start-here-button{
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  width:220px;
+  border-radius:100px;
+  padding:10px;
+  background-color: #bb1600 ;
+  text-decoration:none;
+  margin-left: -350px;
+}
